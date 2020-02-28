@@ -1,10 +1,9 @@
-import React from 'react';
-import Nexus from './components/Nexus'
+import React from 'react'
 
 function App() {
   return (
     <div className="App">
-      <Nexus />
+      <div>Hello World</div>
     </div>
   );
 }
