@@ -7,42 +7,42 @@ class Homepage extends React.Component {
 	render() {
 		return (
 			<div className='flex-column'>
-				<div className='flex-row'>
-					<div className='flex-justify:center'>
+				<a
+					href='https://github.com/FortAwesome/react-fontawesome#features'
+					className='flex-row space:inset-squish border:bottom background'
+				>
+					<div className='flex-justify:center space:inline'>
 						<img src='https://via.placeholder.com/150x105' alt='' />
 					</div>
-					<p>
+					<p className='space:inset-stretch'>
 						Lorem ipsum dolor, sit amet consectetur adipisicing
-						elit. Commodi pariatur illum dolorem laborum repudiandae
-						voluptatibus natus eveniet dolores, recusandae veniam,
-						labore nobis deleniti sequi, expedita tempore unde ipsam
-						ea quos.
+						elit.
 					</p>
-				</div>
-				<div className='flex-row'>
-					<p>
-						Lorem ipsum dolor, sit amet consectetur adipisicing
-						elit. Commodi pariatur illum dolorem laborum repudiandae
-						voluptatibus natus eveniet dolores, recusandae veniam,
-						labore nobis deleniti sequi, expedita tempore unde ipsam
-						ea quos.
-					</p>
-					<div>
+				</a>
+				<a
+					href='https://github.com/FortAwesome/react-fontawesome#features'
+					className='flex-row space:inset-squish border:bottom background'
+				>
+					<div className='flex-justify:center space:inline'>
 						<img src='https://via.placeholder.com/150x105' alt='' />
 					</div>
-				</div>
-				<div className='flex-row'>
-					<div>
+					<p className='space:inset-stretch'>
+						Lorem ipsum dolor, sit amet consectetur adipisicing
+						elit.
+					</p>
+				</a>
+				<a
+					href='https://github.com/FortAwesome/react-fontawesome#features'
+					className='flex-row space:inset-squish background'
+				>
+					<div className='flex-justify:center space:inline'>
 						<img src='https://via.placeholder.com/150x105' alt='' />
 					</div>
-					<p>
+					<p className='space:inset-stretch'>
 						Lorem ipsum dolor, sit amet consectetur adipisicing
-						elit. Commodi pariatur illum dolorem laborum repudiandae
-						voluptatibus natus eveniet dolores, recusandae veniam,
-						labore nobis deleniti sequi, expedita tempore unde ipsam
-						ea quos.
+						elit.
 					</p>
-				</div>
+				</a>
 			</div>
 		)
 	}
