@@ -39,5 +39,6 @@ class Header extends React.Component {
 		)
 	}
 }
-
+//Reflechir a comment afficher le menu burger pour qu il s affiche bien par
+//dessus le contenu peut etre mettre le boolean et la methode dans App et utiliser le z index, surement ca
 export default Header
