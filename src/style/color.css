@@ -1,3 +1,12 @@
 .background {
 	background: linear-gradient(#eee, #fff, #eee);
 }
+
+.red {
+	color: red;
+	background-color: blue;
+}
+
+.grey {
+	background-color: grey;
+}
