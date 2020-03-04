@@ -5,17 +5,39 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 library.add(faBars)
 
-function Header() {
-	return (
-		<div className='flex-row grey'>
-			<FontAwesomeIcon
-				icon='bars'
-				size='3x'
-				className='space-size:s space:inset'
-			/>
-			<div className='border:left'></div>
-		</div>
-	)
+class Header extends React.Component {
+	constructor(props) {
+		super(props)
+		this.state = {
+			isBurgered: false
+		}
+		this.burgerDisplay = this.burgerDisplay.bind(this)
+	}
+
+	burgerDisplay() {
+		this.setState({ isBurgered: !this.state.isBurgered })
+	}
+	render() {
+		return (
+			<div>
+				<div className='grey flex-row'>
+					<FontAwesomeIcon
+						icon='bars'
+						size='3x'
+						onClick={this.burgerDisplay}
+						className={
+							this.state.isBurgered
+								? 'white flex-row space-size:s space:inset'
+								: 'grey flex-row space-size:s space:inset'
+						}
+					/>
+					<div className='border:left'></div>
+				</div>
+
+				{this.state.isBurgered && <div>Helloworld</div>}
+			</div>
+		)
+	}
 }
 
 export default Header
