@@ -11,11 +11,6 @@ class Header extends React.Component {
 		this.state = {
 			isBurgered: false
 		}
-		this.burgerDisplay = this.burgerDisplay.bind(this)
-	}
-
-	burgerDisplay() {
-		this.setState({ isBurgered: !this.state.isBurgered })
 	}
 	render() {
 		return (
@@ -24,7 +19,7 @@ class Header extends React.Component {
 					<FontAwesomeIcon
 						icon='bars'
 						size='3x'
-						onClick={this.burgerDisplay}
+						onClick={this.props.burgerDisplay}
 						className={
 							this.state.isBurgered
 								? 'white flex-row space-size:s space:inset'
@@ -33,8 +28,6 @@ class Header extends React.Component {
 					/>
 					<div className='border:left'></div>
 				</div>
-
-				{this.state.isBurgered && <div>Helloworld</div>}
 			</div>
 		)
 	}
