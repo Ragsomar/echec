@@ -16,7 +16,7 @@
 	justify-content: center;
 }
 
-.flex-both\:align {
+.flex-both\:center {
 	align-items: center;
 	justify-content: center;
 }
@@ -29,6 +29,20 @@
 	justify-content: space-around;
 }
 
+.flex1 {
+	flex: 1;
+}
+.overflow {
+	overflow: hidden auto;
+}
+
+.height-max-100 {
+	max-height: 100vh;
+	height: 100vh;
+}
+
 .z1 {
+	display: fixed;
 	z-index: 1;
+	overflow: hidden;
 }

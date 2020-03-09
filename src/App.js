@@ -6,29 +6,24 @@ import './style/layout.css'
 import './style/space.css'
 import './style/separation.css'
 import './style/color.css'
+import './style/burger.css'
 
 class App extends React.Component {
 	constructor(props) {
 		super(props)
-		this.state = {
-			isBurgered: false
-		}
-		this.burgerDisplay = this.burgerDisplay.bind(this)
-	}
-
-	burgerDisplay() {
-		this.setState({ isBurgered: !this.state.isBurgered })
+		this.state = {}
 	}
 
 	render() {
 		return (
-			<div>
-				<Header
-					isBurgered={this.state.isBurgered}
-					burgerDisplay={this.burgerDisplay}
-				/>
-				{this.state.isBurgered && <BurgerMenu className='z1' />}
-				<Homepage />
+			<div className='flex-column' id='outer-container'>
+				<Header />
+				{
+					//<BurgerMenu />
+				}
+				<main className='flex1 overflow height-max-100' id='page-wrap'>
+					<Homepage />
+				</main>
 			</div>
 		)
 	}

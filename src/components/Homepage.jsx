@@ -33,6 +33,66 @@ class Homepage extends React.Component {
 				</a>
 				<a
 					href='https://github.com/FortAwesome/react-fontawesome#features'
+					className='flex-row space:inset-squish background border:bottom'
+				>
+					<div className='flex-justify:center space:inline'>
+						<img src='https://via.placeholder.com/150x105' alt='' />
+					</div>
+					<p className='space:inset-stretch'>
+						Lorem ipsum dolor, sit amet consectetur adipisicing
+						elit.
+					</p>
+				</a>
+				<a
+					href='https://github.com/FortAwesome/react-fontawesome#features'
+					className='flex-row space:inset-squish background border:bottom'
+				>
+					<div className='flex-justify:center space:inline'>
+						<img src='https://via.placeholder.com/150x105' alt='' />
+					</div>
+					<p className='space:inset-stretch'>
+						Lorem ipsum dolor, sit amet consectetur adipisicing
+						elit.
+					</p>
+				</a>
+				<a
+					href='https://github.com/FortAwesome/react-fontawesome#features'
+					className='flex-row space:inset-squish background border:bottom'
+				>
+					<div className='flex-justify:center space:inline'>
+						<img src='https://via.placeholder.com/150x105' alt='' />
+					</div>
+					<p className='space:inset-stretch'>
+						Lorem ipsum dolor, sit amet consectetur adipisicing
+						elit.
+					</p>
+				</a>
+				<a
+					href='https://github.com/FortAwesome/react-fontawesome#features'
+					className='flex-row space:inset-squish background border:bottom'
+				>
+					<div className='flex-justify:center space:inline'>
+						<img src='https://via.placeholder.com/150x105' alt='' />
+					</div>
+					<p className='space:inset-stretch'>
+						Lorem ipsum dolor, sit amet consectetur adipisicing
+						elit.
+					</p>
+				</a>
+				<a
+					href='https://github.com/FortAwesome/react-fontawesome#features'
+					className='flex-row space:inset-squish background border:bottom'
+				>
+					<div className='flex-justify:center space:inline'>
+						<img src='https://via.placeholder.com/150x105' alt='' />
+					</div>
+					<p className='space:inset-stretch'>
+						Lorem ipsum dolor, sit amet consectetur adipisicing
+						elit.
+					</p>
+				</a>
+				<a
+					href='https://github.com/FortAwesome/react-fontawesome#features'
 					className='flex-row space:inset-squish background'
 				>
 					<div className='flex-justify:center space:inline'>
