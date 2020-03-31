@@ -1,6 +1,7 @@
 import React from 'react'
 import Homepage from './components/Homepage'
 import Header from './components/Header'
+import ProductPage from './components/ProductPage'
 import './style/layout.css'
 import './style/space.css'
 import './style/separation.css'
@@ -20,6 +21,7 @@ class App extends React.Component {
 				<Header />
 				<main className='flex1 overflow height-max-100' id='page-wrap'>
 					<Homepage />
+					<ProductPage />
 				</main>
 			</div>
 		)
